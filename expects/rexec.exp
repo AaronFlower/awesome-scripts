@@ -1,7 +1,9 @@
 #!/usr/bin/expect -f
 
 # Execute command on a remote server.
-# Usage: rexec.exp user password server port command
+# Usage: `rexec.exp user password server port command`
+# You can set `alias rfoo='exec.exp user password server port command'`
+# in your '.bashrc' and make it more convient.
 
 # Take arguemnts
 # user = User
